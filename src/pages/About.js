@@ -1,6 +1,6 @@
 import React from "react";
-const Blogs = () => {
+const About = () => {
     return <h1>Blog Articles</h1>;
     };
 
-    export default Blogs;
+    export default About;
