@@ -1,5 +1,135 @@
-h1,
-p {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background:#171717;
+    background:-webkit-linear-gradient(left, #92d7ff, #92d7ff, #171717, #171717);
+    background:-moz-linear-gradient(left, #92d7ff, #92d7ff, #171717, #171717);
+    background:-ms-linear-gradient(left, #92d7ff, #92d7ff, #171717, #171717);
+    color: #171717;
+}
+
+/* header styling */
+.header{
+    width:100vw;
+    background:#171717;
+    border-radius:0px 0px 0px 90px;
+    color: #ebffff;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+}
+.ad{
+    text-align: center;
+    padding-top: 4px;
+}
+nav ul{
+    padding: 0;
+    width: 100vw;
+}
+nav ul li {
+    list-style-type: none;
+}
+.about{
+    text-align:right ;
+    font-weight: bold;
+    margin-right: 80px;
+    margin-top: -18px;
+}
+.logo {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.search{
+    clear: both;
+    text-align: center;
+}
+input{
+    border-radius:8px;
+    border:none;
+    margin:4px;
+    padding: 8px;
+    background: #ebffff;
+}
+.key{
+    font-size: 9px;
+    color: #a7a7a7;
+}
+
+/* main styling */
+.main{
+    width:100vw;
+    border-radius:0px 90px 0px 0px;
+    text-align: center;
+    background:#92d7ff;
+}
+.keyboard{
+    padding-top: 2px;
+    text-align: center;
+    width: 100vw;
+}
+
+.iframeContainer{
+    margin-bottom: 16px;
+}
+.iframeContainer h3{
+    margin-top: 40px;
+}
+.iframeContainer p{
+    text-align: left;
+    margin: 18px 80px 18px 80px;
+}
+.footer{
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background: #171717;
+    color: ebffff;
+    text-align: center;
+}
+.footer p{
+    font-size: 13px;
+}
+.footer a{
+    text-decoration: none;
+    color: #92d7ff;
+}
+
+@media(max-width:2000px){
+.header{
+    height:20vh;
+}
+.main{
+    margin-top: 20vh;
+    height:280vh;
+}
+
+@media (max-width:756px){ 
+.header{
+    height:40vh;
+}
+.main{
+    margin-top: 40vh;
+}
+.about{
+    margin-right: 18px;
+}
+.logo {
+    margin-left: 18px;
+}
+.iframeContainer p{
+    margin: 18px;
+}
+
+}
+
+.quote{
+    margin-top: 20px;
+    color: #a2a2a2;
+    background: #fff;
+    padding: 12px;
+    border-radius: 0px 22px 0px 0px;
 }
