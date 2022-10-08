@@ -7,7 +7,7 @@ const Layout = () => {
       <nav>
       <ul>
          <li className="logo">
-<i className="fa fa-home">
+<i className="fa fa-home"></i>
          <Link to="/">Home</Link>
          </li>
          <li className="about">
