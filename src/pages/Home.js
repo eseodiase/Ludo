@@ -5,7 +5,7 @@ const Home = () => {
       <form>
       <h3 id="title">247 Lyrics Finder</h3>
       <label>Song name:</label>
-      <input type="search" id="search-song" value="hello">
+      <input type="search" id="search-song" value="hello"/>
       <br/>
       <label>Artist name:</label>
     <input type="search" id="search-artist" value="adele"/>
