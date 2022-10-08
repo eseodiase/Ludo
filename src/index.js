@@ -9,17 +9,17 @@ import NoPage from "./pages/NoPage";
 
 export default function App() {
   return (
-      <BrowserRouter>
-            <Routes>
-                    <Route path="/" element={<Layout />}>
-                              <Route index element={<Home />} />
-                                        <Route path="about" element={<About />} />
-                                                            <Route path="*" element={<NoPage />} />
-                                                                    </Route>
-                                                                          </Routes>
-                                                                              </BrowserRouter>
-                                                                                );
-                                                                                }
+  <BrowserRouter>
+  <Routes>
+  <Route path="/" element={<Layout />}>
+  <Route index element={<Home />} />
+  <Route path="about" element={<About />} />
+  <Route path="*" element={<NoPage />} />
+  </Route>
+  </Routes>
+  </BrowserRouter>
+  );
+  }
 
-                                                                                const root = ReactDOM.createRoot(document.getElementById('root'));
-                                                                                root.render(<App />);
+ const root = ReactDOM.createRoot(document.getElementById('root'));
+ root.render(<App />);
