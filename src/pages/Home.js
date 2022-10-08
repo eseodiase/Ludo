@@ -8,7 +8,7 @@ const Home = () => {
       <input type="search" id="search-song" value="hello">
       <br/>
       <label>Artist name:</label>
-    <input type="search" id="search-artist" value="adele">
+    <input type="search" id="search-artist" value="adele"/>
     <p className="key"> Hit "Enter key" or tap "Search icon" on your keyboard/keypad to search.</p>
     </form>
     </div>
