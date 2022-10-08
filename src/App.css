@@ -18,20 +18,27 @@ body {
     color: #ebffff;
     z-index: 9999;
     position: fixed;
-    top: 0;
+    top: 20px;
 }
 .ad{
     text-align: center;
     padding-top: 4px;
 }
+Layout, nav{
+z-index:9999;
+}
 nav ul{
     padding: 0;
     width: 100vw;
+    z-index:9999;
 }
 nav ul li {
     list-style-type: none;
 }
-
+nav ul li Link {
+text-decoration: none;
+color: #ebffff;
+}
 .about{
     text-align:right ;
     font-weight: bold;
