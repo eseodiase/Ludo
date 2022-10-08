@@ -18,7 +18,7 @@ body {
     color: #ebffff;
     z-index: 9999;
     position: fixed;
-    top: 20px;
+    top: 50px;
 }
 .ad{
     text-align: center;
@@ -26,16 +26,18 @@ body {
 }
 Layout, nav{
 z-index:9999;
+background:#171717;
 }
 nav ul{
     padding: 0;
     width: 100vw;
     z-index:9999;
+background:#171717;
 }
 nav ul li {
     list-style-type: none;
 }
-nav ul li Link {
+Link {
 text-decoration: none;
 color: #ebffff;
 }
