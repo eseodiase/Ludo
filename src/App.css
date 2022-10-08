@@ -33,7 +33,6 @@ nav ul li {
 }
 nav ul li Link{
 text-decoration: none;
-color:#171717;
 }
 .about{
     text-align:right ;
@@ -107,7 +106,7 @@ input{
     height:20vh;
 }
 .main{
-    margin-top: 20vh;
+    margin-top: 15vh;
     height:280vh;
 }
 }
@@ -117,7 +116,7 @@ input{
     height:40vh;
 }
 .main{
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
 .about{
     margin-right: 18px;
