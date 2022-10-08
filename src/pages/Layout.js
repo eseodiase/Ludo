@@ -4,23 +4,23 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
       <>
-            <nav>
-                    <ul>
-                              <li>
-                                          <Link to="/">Home</Link>
-                                                    </li>
-                                                              <li>
-                                                                          <Link to="/about">About</Link>
-                                                                                    </li>
+      <nav>
+      <ul>
+         <li className="logo">
+<i className="fa fa-home">
+         <Link to="/">Home</Link>
+         </li>
+         <li className="about">
+         <Link to="/about">About</Link>
+         </li>
                                                                                               
                                                                                                      
                                                                                    
-                                                                                               </ul>
-                                                                                                          </nav>
+         </ul>
+         </nav>
 
-                                                                                                                                        <Outlet />
-                                                                                                                                            </>
-                                                                                                                                              )
-                                                                                                                                              };
-
-                                                                                                                                              export default Layout;
+         <Outlet />
+         </>
+         )
+         };
+export default Layout;                                                                                        
