@@ -1,6 +1,8 @@
 import React from "react";
 const Home = () => {
      return <section>
+
+<section className="header">
    <div className="search">
       <form>
       <h3 id="title">247 Lyrics Finder</h3>
@@ -12,13 +14,16 @@ const Home = () => {
     <p className="key"> Hit "Enter key" or tap "Search icon" on your keyboard/keypad to search.</p>
     </form>
     </div>
+</section>
 
+<section className="main">
 <section className="keyboard">
     <div className="iframeContainer">
     <h3>Song Lyrics</h3>
     <p id="lyrics">Loading...</p>
     </div>
     </section>
+</section>
 
 </section>;
     };
