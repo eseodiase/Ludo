@@ -18,6 +18,9 @@ export default function App() {
   </Route>
   </Routes>
   </BrowserRouter>
+  );
+
+
 
 function d(c){
           return document.querySelector(c);
@@ -55,7 +58,7 @@ inputRef2.addEventListener("search", () =>{
 		}
 
 
-  );
+
   }
 
  const root = ReactDOM.createRoot(document.getElementById('root'));
