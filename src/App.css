@@ -38,8 +38,8 @@ nav ul li {
     list-style-type: none;
 }
 Link {
-text-decoration: none;
-color: #ebffff;
+text-decoration: inherit;
+color: inherit;
 }
 .about{
     text-align:right ;
