@@ -8,7 +8,8 @@ const Layout = () => {
       <ul>
          <li className="logo">
 <i className="fa fa-home"></i>
-         <Link to="/">Home</Link>
+
+<Link style={{textDecoration: 'none'}} to="/">Home</Link>
          </li>
          <li className="about">
          <Link to="/about">About</Link>
