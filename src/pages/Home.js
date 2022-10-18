@@ -75,7 +75,7 @@ const Home = () => {
   <div id="item5" className="item5"></div>
 </div>
 
-<!--- start 15 lines (1)--->
+
 <div className="grid-container2">
   <div id="lines" className="line1"></div>
   
@@ -108,7 +108,7 @@ const Home = () => {
   <div id="lines" className="line15"></div>
 </div>
 
-<!-- 15 lines (2) -->
+
 <div className="grid-container2">
   <div id="lines" className="line1"></div>
   
@@ -141,7 +141,7 @@ const Home = () => {
   <div id="lines" className="line15"></div>
 </div>
 
-<!-- 15 lines (3)-->
+
 <div className="grid-container2">
   <div id="lines" className="line1"></div>
   
@@ -174,7 +174,7 @@ const Home = () => {
   <div id="lines" className="line15"></div>
 </div>
 
-<!-- yellow & green --->
+
 <div className="grid-container">
   <div id="first" className="item1"></div>
   
