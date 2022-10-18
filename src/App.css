@@ -35,19 +35,20 @@ grid-area: header;
 .item5 { grid-area: footer; }
 
 /* */
-.item6 { grid-area: six; }
-.item7 { grid-area: seven; }
-.item8 { grid-area: eight; }
-.item9 { grid-area: nine; }
-.item10 { grid-area: ten; }
+.item6 { grid-area: header; }
+.item7 { grid-area: menu; }
+.item8 { grid-area: main; }
+.item9 { grid-area: right; }
+.item10 { grid-area: footer; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
   'header header header header header header menu main right footer footer footer footer footer footer';
+   'header header header header header header menu main right footer footer footer footer footer footer';
   
-    'six six six six six six seven eight nine ten ten ten ten ten ten';
-  color:grey;
+
+color:grey;
   background-color: #eee;
  
 }
