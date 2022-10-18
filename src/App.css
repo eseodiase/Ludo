@@ -28,7 +28,7 @@ Layout, nav{
 z-index:9999;
 background:#171717;
 top: 0;
-position: fixed;
+position: absolute;
 }
 nav ul{
     padding: 0;
