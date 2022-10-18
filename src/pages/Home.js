@@ -1,7 +1,7 @@
 import React from "react";
 const Home = () => {
      return <section>
-<h1> Ludo Board </p>
+<h1> Ludo Board </h1>
 
 </section>;
     };
