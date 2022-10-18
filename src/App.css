@@ -24,11 +24,16 @@ body {
     text-align: center;
     padding-top: 4px;
 }
+
+.Apage, .Hpage{
+margin-top: 100px;
+}
+
 Layout, nav{
 z-index:9999;
 background:#171717;
 top: 0;
-position: absolute;
+position: fixed;
 }
 nav ul{
     padding: 0;
