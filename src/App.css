@@ -16,6 +16,8 @@ body{
 
 .Apage, .Hpage{
     margin-top: 80px;
+    margin-right: 14px;
+    margin-left: 14px;
 } 
 
  nav{
