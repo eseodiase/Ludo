@@ -4,19 +4,23 @@ height: 100vh;
 margin: 0;
 padding: 0;
     background: #2a3a2a;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 /* react nav */
 .Apage, .Hpage{margin-top: 60px;} 
 
+.about{ text-align:right ; font-weight: bold; margin-right: 80px; margin-top: -18px;}
+
+.logo { text-align: left; font-weight: bold; margin-left: 80px;}
+
 Layout, nav{
 z-index: 9999;
-background: #2a3a2a;
 top: 0; position: fixed;
 }
 
-nav ul{ padding: 0; width: 100vw; z-index:9999;background:#171717;}
+nav ul{ padding: 0; width: 100vw; z-index:9999;
+background: #2a3a2a;}
 
 nav ul li { 
 list-style-type: none;
