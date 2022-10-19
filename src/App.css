@@ -32,11 +32,13 @@ background: #2a3f3f;
 top:0px;
 position: fixed;
 margin: 0px;
+text-align: center;
 }
 
 nav ul li { 
 list-style-type: none;
 padding: 16px;
+text-align: center;
 }
 
 Link {text-decoration: inherit;color: inherit;}.about{ text-align:right ; font-weight: bold; margin-right: 80px; margin-top: -18px;}
