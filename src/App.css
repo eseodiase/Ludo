@@ -10,26 +10,28 @@ padding: 0;
 /* react nav */
 .Apage, .Hpage{margin-top: 80px; margin-left:14px; margin-right:14px;} 
 
-.about{ text-align:right ; font-weight: bold; margin-right: 80px; margin-top: -18px;}
+.about{ font-weight: bold; margin-top: -18px;}
 
-.logo { text-align: left; font-weight: bold; margin-left: 80px;}
+.logo { font-weight: bold;}
 
 .logo, .about {
 display: inline-block;
-text-align: center;
+
 }
 
 nav{
 z-index: 9999;
 top: -22px; 
 position: fixed;
+text-align: center;
+margin: 0px;
 }
 
-nav ul{ padding: 0; width: 100vw; z-index:9999;
-background: #2a3a2b;
-top:0;
+nav ul{ padding: 0px; width: 100vw; z-index:9999;
+background: #2a3f3f;
+top:0px;
 position: fixed;
-
+margin: 0px;
 }
 
 nav ul li { 
