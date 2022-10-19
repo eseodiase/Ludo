@@ -1,4 +1,6 @@
-# Lyrics
+Application Name: Ludo Board,
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ecmdba)
+Build With: CSS Grid & React JS,
+
+App URL: https://react-ecmdba.stackblitz.io
 
