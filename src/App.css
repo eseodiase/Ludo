@@ -8,20 +8,24 @@ padding: 0;
 }
 
 /* react nav */
-.Apage, .Hpage{margin-top: 60px;} 
+.Apage, .Hpage{margin-top: 80px;} 
 
 .about{ text-align:right ; font-weight: bold; margin-right: 80px; margin-top: -18px;}
 
 .logo { text-align: left; font-weight: bold; margin-left: 80px;}
 
-Layout, nav{
+.logo, .about {
+display: inline-block;
+}
+
+nav{
 z-index: 9999;
 top: 0; 
 position: fixed;
 }
 
 nav ul{ padding: 0; width: 100vw; z-index:9999;
-background: #222222;
+background: #2a2a2a;
 top:0;
 position: fixed;
 }
