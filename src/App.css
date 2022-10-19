@@ -7,46 +7,45 @@ padding: 0;
     color: #ffffff;
 }
 
-/* react nav */
-.Apage, .Hpage{margin-top: 80px; margin-left:14px; margin-right:14px;} 
-
-.about{ font-weight: bold; margin-top: -18px;}
-
-.logo { font-weight: bold;}
-
-.logo, .about {
-display: inline-block;
-
+body{
+    background: #2a3a2a;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
-nav{
-z-index: 9999;
-top: -22px; 
-position: fixed;
-text-align: center;
-margin: 0px;
-}
+.Apage, .Hpage{
+    margin-top: 80px;
+} 
 
-nav ul{ padding: 0px; width: 100vw; z-index:9999;
-background: #2a3f3f;
-top:0px;
-position: fixed;
-margin: 0px;
-text-align: center;
+ nav{
+ z-index:9999;
+ top: 0;
+ position: fixed;
+ }
+
+nav ul{ 
+    padding: 0; 
+    width: 100vw; 
+    z-index:9999;
+    background:#2a3f3f;
+    margin: 0;
+    text-align: center;
 }
 
 nav ul li { 
-list-style-type: none;
-padding: 16px;
-text-align: center;
+    list-style-type: none;
+    padding: 16px;
+    display: inline-block;
 }
 
-Link {text-decoration: inherit;color: inherit;}.about{ text-align:right ; font-weight: bold; margin-right: 80px; margin-top: -18px;}
-/**/
+Link {text-decoration: inherit;color: inherit;}
+
 a{
     text-decoration: none;
     color: #ebffff;
 }
+/**/
 
 #dev{
     text-align: center;
