@@ -20,14 +20,17 @@ display: inline-block;
 
 nav{
 z-index: 9999;
-top: 0; 
+top: 0px; 
 position: fixed;
-margin: 0;
-padding: 0;
+margin: 0px;
+padding: 0px;
 }
 
-nav ul{ padding: 0; width: 100vw; z-index:9999;
-background: #2a3a3f;
+nav ul{ padding: 0px; width: 100vw; z-index:9999;
+background: #2a3f3f;
+top: 0px; 
+position: fixed;
+margin: 0px;
 }
 
 nav ul li { 
