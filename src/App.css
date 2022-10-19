@@ -20,15 +20,14 @@ display: inline-block;
 
 nav{
 z-index: 9999;
-top: -22px; 
+top: 0; 
 position: fixed;
+margin: 0;
+padding: 0;
 }
 
 nav ul{ padding: 0; width: 100vw; z-index:9999;
-background: #2a3a2b;
-top:0;
-position: fixed;
-
+background: #2a3a3f;
 }
 
 nav ul li { 
