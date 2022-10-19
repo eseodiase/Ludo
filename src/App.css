@@ -1,13 +1,6 @@
 body{
 width: 100vw;
 height: 100vh;
-margin: 0;
-padding: 0;
-    background: #2a3a2a;
-    color: #ffffff;
-}
-
-body{
     background: #2a3a2a;
     color: #f0f0f0;
     margin: 0;
@@ -80,7 +73,7 @@ color:grey;
 }
 
 .grid-container > div {
-  background: #2a3a2a;
+  background: #ebffff;
   text-align: center;
   padding: 10px 0;
   font-size: 20px;
